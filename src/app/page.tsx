@@ -140,7 +140,6 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                  dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
@@ -199,7 +198,7 @@ export default function Page() {
                 Chat About My Resume
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Let's Talk About My Resume
+                Let&aposs Talk About My Resume
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to know more about my experience or skills? Use the chat below to dive into my resume in detail.
