@@ -34,7 +34,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/Chat", icon: ChatBubbleIcon, label: "Chat about my Resume" },
+    { href: "#chat-resume", icon: ChatBubbleIcon, label: "Chat about my Resume" },
   ],
   contact: {
     email: "kacem.mathlouthi@ieee.com",
