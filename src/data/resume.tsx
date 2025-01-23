@@ -35,6 +35,8 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "#chat-resume", icon: ChatBubbleIcon, label: "Chat about my Resume" },
+    { href: "https://drive.google.com/file/d/18PfQNkWqVGoWA52bUXhM54ntGcuznf3s/view?usp=sharing", icon: NotebookIcon, label: "PDF Resume" },
+
   ],
   contact: {
     email: "kacem.mathlouthi@ieee.com",
