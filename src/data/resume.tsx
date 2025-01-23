@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { ChatBubbleIcon } from "@radix-ui/react-icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -15,7 +16,7 @@ export const DATA = {
     My journey has been shaped by hands-on experience in [hackathons](#hackathons), [internships](#work), and [self-driven projects](#projects).
     Last summer, I interned at Orange, and I am now actively looking for a job or internship in the AI space. 
     [If you don't like this format of cvs and resumes, you can chat with my resume using this chatbot that i created using RAG!](https://kacemath-resumerag.hf.space/)`, 
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     "Python",
     "C/C++",
@@ -33,45 +34,25 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/Chat", icon: ChatBubbleIcon, label: "Chat about my Resume" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "kacem.mathlouthi@ieee.com",
+    tel: "+21652387938",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/KacemMathlouthi",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/kacem-mathlouthi/",
         icon: Icons.linkedin,
 
         navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://dub.sh/dillion-twitter",
-        icon: Icons.x,
-
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-
-        navbar: false,
       },
     },
   },
@@ -84,8 +65,8 @@ export const DATA = {
       location: "On Site",
       title: "Machine Learning Engineer Intern",
       logoUrl: "/orange.jpg",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Aug 2024",
+      end: "Oct 2024",
       description:
        `Made a plant disease classification lightweight CNN model, optimized for edge devices using knowledge distillation techniques. 
         Developed an AI Agentic workflow for report generation, automating data collection, analysis and research extraction. 
@@ -163,7 +144,7 @@ export const DATA = {
     },
     {
       title: "ML.Guide",
-      href: "https://llm.report",
+      href: "https://github.com/KacemMathlouthi/AINS-ML.Guide",
       active: true,
       description:
         "ML.GUIDE is a Multi-Agent System designed to help you define, evaluate, and solve ML problems. It uses specialized AI agents for tasks like problem definition, data assessment, model recommendations, research, and code generation.", 
@@ -178,13 +159,8 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/KacemMathlouthi/AINS-ML.Guide",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -193,7 +169,7 @@ export const DATA = {
     },
     {
       title: "Machine Learning from Scratch",
-      href: "https://automatic.chat",
+      href: "https://github.com/KacemMathlouthi/Machine-Learning-From-Scratch",
       active: true,
       description:
         "Implementation of popular machine learning algorithms, like PCA, Random Forest, Decision Trees, KNN, K-means...",
@@ -206,9 +182,9 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/KacemMathlouthi/Machine-Learning-From-Scratch",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "https://i.imgur.com/c8vw33a.jpeg",
@@ -271,7 +247,7 @@ export const DATA = {
     },
     {
       title: "4th Place ✨ Orange Summer Challenge (OSC 2024)",
-      dates: "October 13th - 15th, 2017",
+      dates: "Aug 2024 - Oct 2024",
       location: "Tunis, Tunisia",
       description:
         "Developed innovative AI solutions for agriculture, gaining teamwork and problem-solving skills.",
