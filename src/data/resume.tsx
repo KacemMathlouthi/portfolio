@@ -15,7 +15,7 @@ export const DATA = {
     I have applied AI in multiple fields like cybersecurity, agriculture, and developer tools.
     My journey has been shaped by hands-on experience in [hackathons](#hackathons), [internships](#work), and [self-driven projects](#projects).
     Last summer, I interned at Orange, and I am now actively looking for a job or internship in the AI space. 
-    [If you don't like this format of cvs and resumes, you can chat with my resume using this chatbot that i created using RAG!](https://kacemath-resumerag.hf.space/)`, 
+    [If you don't like this format of cvs and resumes, you can chat with my resume using this chatbot that i created using RAG!](#chat-resume)`, 
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
