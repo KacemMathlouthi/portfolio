@@ -5,7 +5,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Kacem Mathlouthi",
   initials: "KM",
-  url: "https://dillion.io",
+  url: "https://kacem-mathlouthi.tn",
   location: "Tunis, Tunisia",
   locationLink: "https://maps.app.goo.gl/QxQvwQF4sFkF1R197",
   description:
@@ -19,7 +19,8 @@ export const DATA = {
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
-    "C/C++",
+    "C",
+    "C++",
     "PyTorch",
     "SQL",
     "Pandas",
@@ -30,12 +31,15 @@ export const DATA = {
     "MongoDB",
     "RAG",
     "Docker",
-    "Gradio & Streamlit",
+    "Gradio",
+    "Streamlit",
+    "ChromaDB",
+    "matplotlib",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "#chat-resume", icon: ChatBubbleIcon, label: "Chat about my Resume" },
-    { href: "https://drive.google.com/file/d/18PfQNkWqVGoWA52bUXhM54ntGcuznf3s/view?usp=sharing", icon: NotebookIcon, label: "PDF Resume" },
+    { href: "https://drive.google.com/file/d/1FC8MRm8Rl0ot0ceTzWV-PB8ZBWJal1_V/view?usp=sharing", icon: NotebookIcon, label: "PDF Resume" },
 
   ],
   contact: {
